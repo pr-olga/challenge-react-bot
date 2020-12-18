@@ -11,7 +11,6 @@ interface ClientProps {
   removeIntentFromClient: (intent: IntentInterface[]) => void
 }
 
-// separate Client and combine here props?
 const ChoosenPanel: React.FC<ClientProps> = (props: ClientProps) => {
   const { client, removeIntentFromClient } = props
 

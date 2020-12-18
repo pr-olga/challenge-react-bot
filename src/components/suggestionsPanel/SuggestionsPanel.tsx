@@ -12,7 +12,6 @@ interface ClientProps {
   removeIntentFromClient: (intent: IntentInterface[]) => void
 }
 
-// separate Client and combine here props?
 const SuggestionsPanel: React.FC<ClientProps> = (props: ClientProps) => {
   const { client, addIntentToClient } = props
 
