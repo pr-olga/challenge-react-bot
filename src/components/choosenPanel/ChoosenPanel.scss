@@ -1,0 +1,30 @@
+@import '../../assets/styles/colors';
+
+.panel--choosen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 500px;
+  padding: 4rem;
+  border-radius: 5rem 0 0 5rem;
+  background-color: $background-secondary;
+  color: $color-secondary;
+  overflow: auto;
+
+  &__title {
+    position: fixed;
+    top: 0;
+    height: 4rem;
+    width: 100%;
+    padding-top: 2rem;
+    border-radius: 0.4rem 0 0 0;
+    background-color: $neutral-light;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  &__content {
+    margin-top: 2rem;
+  }
+}

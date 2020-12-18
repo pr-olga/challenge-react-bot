@@ -1,0 +1,53 @@
+@import '../../assets/styles/colors';
+
+/* whole intent
+   ========================================================================== */
+.intent {
+  min-height: 6rem;
+  width: 100%;
+  margin: 0.2rem;
+  border: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: $background-secondary;
+  border: 2px solid $primary;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &__title {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+  }
+
+  &__bubbles {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+  }
+}
+
+/* bubbles
+   ========================================================================== */
+
+.bubble {
+  padding: 1rem;
+  border-radius: 1rem;
+
+  &--expression {
+    height: 100%;
+    width: 100%;
+    width: 10rem;
+    background-color: $secondary;
+    color: $neutral-middle;
+  }
+
+  &--reaction {
+    width: 100%;
+    width: 10rem;
+    background-color: #d0d0d0;
+  }
+}

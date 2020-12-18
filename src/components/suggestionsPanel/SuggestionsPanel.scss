@@ -1,0 +1,14 @@
+@import '../../assets/styles/colors';
+
+.panel--suggestions {
+  max-width: 800px;
+  margin-right: 600px;
+  padding: 6rem;
+
+  &__intents {
+    &__title {
+      font-size: 2.4rem;
+      font-weight: 700;
+    }
+  }
+}
